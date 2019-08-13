@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.zanezz.dao.EventMapper">
+  <resultMap id="BaseResultMap" type="cn.zanezz.entity.Event">
+    <id column="event_id" jdbcType="INTEGER" property="eventId" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="done_time" jdbcType="TIMESTAMP" property="doneTime" />
+    <result column="start_time" jdbcType="TIMESTAMP" property="startTime" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="is_done" jdbcType="INTEGER" property="isDone" />
+    <result column="is_notify" jdbcType="INTEGER" property="isNotify" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    event_id, title, description, done_time, start_time, user_id, is_done, is_notify
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from event
+    where event_id = #{eventId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from event
+    where event_id = #{eventId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="cn.zanezz.entity.Event">
+    insert into event (event_id, title, description, 
+      done_time, start_time, user_id, 
+      is_done, is_notify)
+    values (#{eventId,jdbcType=INTEGER}, #{title,jdbcType=VARCHAR}, #{description,jdbcType=VARCHAR}, 
+      #{doneTime,jdbcType=TIMESTAMP}, #{startTime,jdbcType=TIMESTAMP}, #{userId,jdbcType=INTEGER}, 
+      #{isDone,jdbcType=INTEGER}, #{isNotify,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="cn.zanezz.entity.Event">
+    insert into event
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="eventId != null">
+        event_id,
+      </if>
+      <if test="title != null">
+        title,
+      </if>
+      <if test="description != null">
+        description,
+      </if>
+      <if test="doneTime != null">
+        done_time,
+      </if>
+      <if test="startTime != null">
+        start_time,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="isDone != null">
+        is_done,
+      </if>
+      <if test="isNotify != null">
+        is_notify,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="eventId != null">
+        #{eventId,jdbcType=INTEGER},
+      </if>
+      <if test="title != null">
+        #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="description != null">
+        #{description,jdbcType=VARCHAR},
+      </if>
+      <if test="doneTime != null">
+        #{doneTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="startTime != null">
+        #{startTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="isDone != null">
+        #{isDone,jdbcType=INTEGER},
+      </if>
+      <if test="isNotify != null">
+        #{isNotify,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.zanezz.entity.Event">
+    update event
+    <set>
+      <if test="title != null">
+        title = #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="description != null">
+        description = #{description,jdbcType=VARCHAR},
+      </if>
+      <if test="doneTime != null">
+        done_time = #{doneTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="startTime != null">
+        start_time = #{startTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="userId != null">
+        user_id = #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="isDone != null">
+        is_done = #{isDone,jdbcType=INTEGER},
+      </if>
+      <if test="isNotify != null">
+        is_notify = #{isNotify,jdbcType=INTEGER},
+      </if>
+    </set>
+    where event_id = #{eventId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.zanezz.entity.Event">
+    update event
+    set title = #{title,jdbcType=VARCHAR},
+      description = #{description,jdbcType=VARCHAR},
+      done_time = #{doneTime,jdbcType=TIMESTAMP},
+      start_time = #{startTime,jdbcType=TIMESTAMP},
+      user_id = #{userId,jdbcType=INTEGER},
+      is_done = #{isDone,jdbcType=INTEGER},
+      is_notify = #{isNotify,jdbcType=INTEGER}
+    where event_id = #{eventId,jdbcType=INTEGER}
+  </update>
+</mapper>
