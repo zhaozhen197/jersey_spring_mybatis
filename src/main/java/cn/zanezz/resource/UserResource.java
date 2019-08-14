@@ -10,13 +10,34 @@ import org.springframework.beans.factory.annotation.Autowired;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.lang.annotation.Retention;
 import java.util.List;
 
+/**
+ * @author zane
+ */
 @Path("user")
 public class UserResource {
     private static final Logger logger = LoggerFactory.getLogger(UserResource.class);
     @Autowired
     private UserService userService;
+
+    /**
+     * 无参get请求
+     * @return
+     */
+
+    @GET
+    @Path("/getString")
+    @Produces({MediaType.TEXT_PLAIN})
+    public String getStringText() {
+        System.out.println("helloworld");
+        return "hello world";
+    }
+
+
+
+
     /**
      * 新增用户信息数据
      */
@@ -80,7 +101,7 @@ public class UserResource {
      */
     @GET
     @Produces({MediaType.APPLICATION_JSON})
-    public Response getUserList(@QueryParam("offset")int pageNum,
+    public Response getUserList(@DefaultValue("2") @QueryParam("offset")int pageNum,
                                 @QueryParam("limit")int pageSize,
                                 @QueryParam("uname")String name,
                                 @QueryParam("age")int age){

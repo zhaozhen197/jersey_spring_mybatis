@@ -2,16 +2,108 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="first_smj:war" />
+      <artifact name="restuflApi:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80e8168e-6040-4176-bdeb-65b15d4eaa8f" name="Default" comment="Jersey2+spring4+mybatis3 整合">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/todo.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testJava/UserResourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/first_smj_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/first_smj_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/db.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restuflApi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/restuflApi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zanezz/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zanezz/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/zanezz/resource/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/zanezz/resource/UserResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/zanezz/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/zanezz/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/zanezz/resource/UserResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/zanezz/resource/UserResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/first_smj-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/classes/cn/zanezz/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/classes/cn/zanezz/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/classes/cn/zanezz/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/classes/cn/zanezz/resource/UserResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/classes/cn/zanezz/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/classes/cn/zanezz/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/classes/config/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/classes/db.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/classes/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/classes/mybatis/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/classes/mybatis/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/aopalliance-repackaged-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/asm-all-repackaged-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/class-model-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/classmate-1.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/config-types-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/druid-1.1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/fastjson-1.2.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/hibernate-validator-5.2.4.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/hk2-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/hk2-api-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/hk2-config-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/hk2-core-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/hk2-locator-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/hk2-runlevel-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/hk2-utils-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/jackson-annotations-2.8.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/jackson-core-2.8.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/jackson-databind-2.8.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/jackson-module-jaxb-annotations-2.8.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/javassist-3.22.0-CR2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/javax.annotation-api-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/javax.inject-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/javax.inject-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/javax.ws.rs-api-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/jboss-logging-3.2.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/jersey-client-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/jersey-common-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/jersey-container-servlet-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/jersey-container-servlet-core-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/jersey-entity-filtering-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/jersey-hk2-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/jersey-media-jaxb-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/jersey-media-json-jackson-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/jersey-server-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/jersey-spring4-2.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/jsqlparser-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/mybatis-3.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/mybatis-generator-core-1.3.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/mysql-connector-java-5.1.41.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/osgi-resource-locator-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/pagehelper-5.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/postgresql-9.4.1212.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/spring-aop-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/spring-beans-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/spring-bridge-2.5.0-b42.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/spring-context-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/spring-core-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/spring-expression-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/spring-jdbc-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/spring-test-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/spring-tx-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/spring-web-4.3.17.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/tiger-types-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/lib/validation-api-1.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/helloSSM/WEB-INF/web.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +111,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -34,6 +130,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -152,30 +251,31 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565744946763" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\code\java\jersey+spring+mybatis\spring_jersey_mybatis\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\code\java\jersey+spring+mybatis\spring_jersey_mybatis\src\main\resources\mybatis" />
-      <recent name="D:\Code\Idea\first_smj\src\main\resources\config" />
       <recent name="D:\Code\Idea\first_smj\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xx" />
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\java\jersey+spring+mybatis\spring_jersey_mybatis\src\main\resources" />
       <recent name="E:\code\java\jersey+spring+mybatis\spring_jersey_mybatis\src\main\resources\mybatis" />
+      <recent name="D:\Code\Idea\first_smj\src\main\resources\config" />
       <recent name="D:\Code\Idea\first_smj\src\main\resources" />
     </key>
   </component>
@@ -191,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.UserResourceTest.setup (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -200,6 +300,40 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserResourceTest.setup (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restuflApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testJava" />
+      <option name="MAIN_CLASS_NAME" value="testJava.UserResourceTest" />
+      <option name="METHOD_NAME" value="setup" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserResourceTest.setup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restuflApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java" />
+      <option name="MAIN_CLASS_NAME" value="java.UserResourceTest" />
+      <option name="METHOD_NAME" value="setup" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -220,14 +354,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.381" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="8.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.381" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="HOT_SWAP_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="hot-swap-classes" />
       <deployment>
-        <artifact name="first_smj:war">
+        <artifact name="restuflApi:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/restuflApi" />
           </settings>
         </artifact>
       </deployment>
@@ -323,7 +457,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="first_smj:war" />
+          <artifact name="restuflApi:war" />
         </option>
       </method>
     </configuration>
@@ -336,6 +470,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.8.5" />
+      <item itemvalue="JUnit.UserResourceTest.setup" />
+      <item itemvalue="JUnit.UserResourceTest.setup (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserResourceTest.setup (1)" />
+        <item itemvalue="JUnit.UserResourceTest.setup" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -351,7 +496,7 @@
       <workItem from="1565689846077" duration="5852000" />
       <workItem from="1565701526601" duration="1180000" />
       <workItem from="1565702933633" duration="1003000" />
-      <workItem from="1565748479196" duration="955000" />
+      <workItem from="1565748479196" duration="12480000" />
     </task>
     <task id="LOCAL-00001" summary="Jersey2+spring4+mybatis3 整合">
       <created>1565701637087</created>
@@ -360,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565701637087</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Jersey2+spring4+mybatis3 整合">
+      <created>1565749518817</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565749518817</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,100 +532,11 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/jersey_spring_mybatis" />
     </ignored-roots>
     <MESSAGE value="Jersey2+spring4+mybatis3 整合" />
     <option name="LAST_COMMIT_MESSAGE" value="Jersey2+spring4+mybatis3 整合" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>first_smj:war exploded</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring (first_smj)|Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>first_smj</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.alibaba:druid:1.1.9</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

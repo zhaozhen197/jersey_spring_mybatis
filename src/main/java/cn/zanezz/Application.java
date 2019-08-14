@@ -1,14 +1,4 @@
-package cn.zanezz;/*
- * Copyright (C), 2017, 上海云首信息科技有限公司
- *
- * Author: 邓哲航
- * Date: 2018/5/17 下午4:10
- * History:
- * <author>    <time>    <version>    <desc>
- *
- */
-
-
+package cn.zanezz;
 
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.web.filter.RequestContextFilter;
@@ -22,9 +12,8 @@ public class Application extends ResourceConfig {
      * Register JAX-RS application components.
      */
     public Application() {
-
         // register application resources
-        packages("com.xx.resource");
+        packages("cn.zanezz.resource");
         // register filters
         register(RequestContextFilter.class);
 
