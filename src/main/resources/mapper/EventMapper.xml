@@ -125,4 +125,5 @@
       is_notify = #{isNotify,jdbcType=INTEGER}
     where event_id = #{eventId,jdbcType=INTEGER}
   </update>
+
 </mapper>

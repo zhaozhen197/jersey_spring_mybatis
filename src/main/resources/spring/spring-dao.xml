@@ -42,13 +42,15 @@
         <property name="typeAliasesPackage" value="cn.zanezz.entity" />
     </bean>
 
-    <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
-        <constructor-arg index="0" ref="sqlSessionFactory"/>
-    </bean>
+<!--    <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">-->
+<!--        <constructor-arg index="0" ref="sqlSessionFactory"/>-->
+<!--    </bean>-->
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="cn.zanezz.dao"/>
-        <property name="sqlSessionTemplateBeanName" value="sqlSession"/>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
+
+        <!--        <property name="sqlSessionTemplateBeanName" value="sqlSession"/>-->
     </bean>
 
 

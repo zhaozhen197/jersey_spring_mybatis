@@ -1,9 +1,17 @@
 package cn.zanezz.entity;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
+@ApiModel("用户模型")
 public class User {
+    @ApiModelProperty(value = "id")
     private int id;
+    @ApiModelProperty("用户姓名")
     private String name;
+    @ApiModelProperty("用户密码")
     private String passwd;
+    @ApiModelProperty("用户年龄")
     private int age;
 
     public int getId() {
