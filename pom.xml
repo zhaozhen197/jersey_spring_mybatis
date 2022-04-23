@@ -15,7 +15,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.version>4.3.17.RELEASE</spring.version>
+        <spring.version>5.3.19</spring.version>
         <jersey.version>2.27</jersey.version>
         <log4j.version>1.7.25</log4j.version>
         <mybatis-plugins-pagehelper.version>5.1.4</mybatis-plugins-pagehelper.version>
