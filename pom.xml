@@ -43,7 +43,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.41</version>
+            <version>8.0.28</version>
         </dependency>
 
         <!--mybatis mapper 自动生成工具-->
@@ -230,7 +230,7 @@
                     <dependency>
                         <groupId>mysql</groupId>
                         <artifactId>mysql-connector-java</artifactId>
-                        <version>5.1.41</version>
+                        <version>8.0.28</version>
                         <scope>runtime</scope>
                     </dependency>
                     <dependency>
